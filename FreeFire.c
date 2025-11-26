@@ -308,7 +308,7 @@ void buscaBinariaPorNome() {
     }
 
     if (encontrado != -1) {
-        printf("\n[ENCONTRADO] Item localizado na posicao %d (apos %d iteracoes):\n", found + 1, iteracoes);
+        printf("\n[ENCONTRADO] Item localizado na posicao %d (apos %d iteracoes):\n", encontrado + 1, iteracoes);
         printf("Nome: %s | Tipo: %s | Qtd: %d | Prioridade: %d\n", 
                mochila[encontrado].nome, mochila[encontrado].tipo, 
                mochila[encontrado].quantidade, mochila[encontrado].prioridade);
